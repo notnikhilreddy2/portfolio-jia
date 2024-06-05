@@ -81,45 +81,48 @@ header {
     color: inherit;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-}
-
-nav ul li a.active {
-    background-color: #666666;
-    color: #ffffff;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-nav ul li a:hover {
-    background-color: #cccccc; /* Highlight color */
-    color: #000000; /* Text color on hover */
-    padding: 5px 5px;
-    border-radius: 5px;
-}
-
+/* Navigation bar styling */
 nav {
     position: sticky;
     top: 0;
     width: 100%;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 10px 0;
-    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 2px; /* Closer spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a.active {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #cccccc; /* Highlight color */
+    color: #000000; /* Text color on hover */
 }
 
 main {
@@ -215,4 +218,202 @@ section {
     border: 0;
     border-top: 1px solid #ddd;
     margin: 15px 0;
+}
+
+
+/* Publications list styling */
+.publications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publications-list li {
+    margin-bottom: 20px;
+}
+
+.publications-list li a {
+    color: #d68b45;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.publications-list li a:hover {
+    text-decoration: underline;
+}
+
+.publications-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Competitions table styling */
+.competitions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.competitions-table th,
+.competitions-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.competitions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.competitions-table td a {
+    color: #d68b45;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.competitions-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Funding table styling */
+.funding-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.funding-table th,
+.funding-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.funding-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.funding-table td a {
+    color: #d68b45;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.funding-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Courses list styling */
+.courses-list {
+    list-style: none;
+    padding: 0;
+}
+
+.courses-list li {
+    margin-bottom: 20px;
+}
+
+.courses-list li a {
+    color: #d68b45;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.courses-list li a:hover {
+    text-decoration: underline;
+}
+
+.courses-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+/* Patents list styling */
+.patents-list {
+    list-style: none;
+    padding: 0;
+}
+
+.patents-list li {
+    margin-bottom: 20px;
+}
+
+.patents-list li a {
+    color: #d68b45;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.patents-list li a:hover {
+    text-decoration: underline;
+}
+
+.patents-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+/* Invited talks table styling */
+.invited-talks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.invited-talks-table th,
+.invited-talks-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.invited-talks-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+/* Students table styling */
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.students-table th,
+.students-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.students-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+/* Alumni table styling */
+.alumni-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.alumni-table th,
+.alumni-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.alumni-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }
