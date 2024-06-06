@@ -8,6 +8,7 @@
 </head>
 <body>
     <iframe src="header.html" style="width: 100%; border: none;"></iframe>
+    
     <nav>
         <ul>
             <li><a href="biography.html">Biography</a></li>
@@ -21,24 +22,31 @@
             <li><a href="alumni.html">Alumni</a></li>
         </ul>
     </nav>
+
     <main>
         <div class="content-container">
             <section id="patents_info">
                 <div class="breadcrumb">
                     <a href="index.html" class="home-link">Home</a> / Patents
                 </div>
-                <h2>Patents</h2>
-                <ul class="patents-list">
-                    <li>
-                        <a href="#">Unsupervised Chinese Word Segmentation for Statistical Machine Translation</a>
-                        <p>Jianfeng Gao, Kristina Nikolova Toutanova, and Jia Xu</p>
-                    </li>
-                </ul>
+                <h1>Patents</h1>
+                <div class="patent-item">
+                    <p>Unsupervised Chinese Word Segmentation for Statistical Machine Translation</p>
+                    <p>Jianfeng Gao, Kristina Nikolova Toutanova, and Jia Xu</p>
+                    <button onclick="showPopup()">Insight</button>
+                </div>
             </section>
             <aside class="featured-container">
                 <iframe src="featured_posts.html" style="width: 100%; border: none; height: 100%;"></iframe>
             </aside>
         </div>
     </main>
+
+    <script>
+        function showPopup() {
+            alert("Application No. 12/163.119, (ASM 8310) MS 323635.01, Redmond, Washington, June 2008");
+        }
+    </script>
+    <iframe src="footer.html" style="width: 100%; border: none;"></iframe>
 </body>
 </html>
