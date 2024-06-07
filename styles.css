@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
@@ -64,7 +64,6 @@ header {
     color: #ffffff; /* Slightly grey */
 }
 
-
 /* Navigation bar styling */
 nav {
     position: sticky;
@@ -104,8 +103,6 @@ nav ul li a.active, nav ul li a:hover {
     border-radius: 5px;
 }
 
-
-
 .breadcrumb {
     padding: 10px 0;
     font-size: 1.2em;
@@ -131,7 +128,6 @@ nav ul li a.active, nav ul li a:hover {
     text-decoration: none;
     color: inherit;
 }
-
 
 main {
     padding: 20px 15%;
@@ -162,7 +158,6 @@ section {
     text-decoration: underline;
 }
 
-
 /* Styles for news and announcements */
 #news, #announcements {
     margin-top: 40px;
@@ -187,8 +182,6 @@ section {
     font-size: 1.1em;
     color: #333;
 }
-
-
 
 /* Two-column layout */
 .content-container {
@@ -248,8 +241,6 @@ hr {
     background: #e0e0e0;
     margin: 20px 0;
 }
-
-
 
 /* Publications list styling */
 .publications-list {
@@ -315,7 +306,6 @@ hr {
     cursor: pointer;
 }
 
-
 /* Funding Table Styling */
 .funding-table {
     width: 100%;
@@ -350,7 +340,6 @@ hr {
     background-color: #f1f1f1;
 }
 
-
 /* Courses list styling */
 .courses-list {
     list-style: none;
@@ -376,7 +365,6 @@ hr {
     margin: 5px 0;
     color: #555;
 }
-
 
 /* New styles for patents.html */
 .patent-item {
@@ -404,8 +392,6 @@ hr {
 .patent-item button:hover {
     background-color: #0056b3;
 }
-
-
 
 /* New styles for tables */
 .table {
@@ -444,9 +430,6 @@ hr {
     background-color: #f1f1f1;
     cursor: pointer;
 }
-
-
-
 
 /* New styles for students.html */
 .student-photo {
@@ -493,7 +476,6 @@ hr {
     cursor: pointer;
 }
 
-
 /* New styles for students.html */
 .student-photo {
     width: 100px;
@@ -501,8 +483,6 @@ hr {
     border-radius: 50%;
     margin-right: 10px;
 }
-
-
 
 .current-courses ul, .past-courses ul {
     list-style: none;
