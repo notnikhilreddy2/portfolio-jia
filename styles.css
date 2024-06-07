@@ -26,8 +26,9 @@ header {
     background-color: #8c807c;
     padding: 25px;
     text-align: left; /* Align content to the left */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .header-content {
     display: flex;
@@ -48,13 +49,13 @@ header {
 
 .header-content h1 {
     margin: 0;
-    font-size: 2.5em; /* Big font for name */
+    font-size: 2em; /* Big font for name */
     color: #ffffff; /* Slightly grey */
 }
 
 .header-content h2 {
     margin: 5px 0;
-    font-size: 1.5em; /* Smaller font for second line */
+    font-size: 1em; /* Smaller font for second line */
     color: #ffffff; /* Slightly grey */
 }
 
@@ -150,7 +151,7 @@ section {
 }
 
 .news-table a {
-    color: #009879;
+    /* color: #333; */
     text-decoration: none;
 }
 
@@ -209,10 +210,10 @@ section {
 }
 
 .featured-posts h2 {
-    color: #009879;
+    color: #333;
     margin-bottom: 20px;
     font-size: 1.5em;
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
 
@@ -227,7 +228,7 @@ section {
 }
 
 .post a {
-    color: #009879;
+    color: #333;
     text-decoration: none;
 }
 
@@ -279,7 +280,7 @@ hr {
 }
 
 .table thead tr {
-    background-color: #009879;
+    background-color: #333;
     color: #ffffff;
     text-align: left;
 }
@@ -298,7 +299,7 @@ hr {
 }
 
 .table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #333;
 }
 
 .table tbody tr:hover {
@@ -320,7 +321,7 @@ hr {
 }
 
 .funding-table thead th {
-    background-color: #009879;;
+    background-color: #333;;
     color: #ffffff;
 }
 
@@ -333,7 +334,7 @@ hr {
 }
 
 .funding-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;;
+    border-bottom: 2px solid #333;;
 }
 
 .funding-table tbody tr:hover {
@@ -404,7 +405,7 @@ hr {
 }
 
 .table thead tr {
-    background-color: #009879;
+    background-color: #007bff;
     color: #ffffff;
     text-align: left;
 }
@@ -423,7 +424,7 @@ hr {
 }
 
 .table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #333;
 }
 
 .table tbody tr:hover {
@@ -449,7 +450,7 @@ hr {
 }
 
 .table thead tr {
-    background-color: #009879;
+    background-color: #333;
     color: #ffffff;
     text-align: left;
 }
@@ -468,7 +469,7 @@ hr {
 }
 
 .table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #333;
 }
 
 .table tbody tr:hover {
@@ -543,7 +544,7 @@ footer {
 }
 
 .footer-content a {
-    color: #009879;
+    color: #333;
     text-decoration: none;
 }
 
