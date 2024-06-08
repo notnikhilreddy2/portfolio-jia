@@ -1,9 +1,10 @@
 body {
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Open Sans SemiBold', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     color: #000000;
+    font-size: 1em; /* Regular text size */
 }
 
 iframe {
@@ -17,7 +18,7 @@ iframe {
     background-color: #333333; /* Black line */
     height: 35px; /* Height of the black line */
     width: 100%;
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -28,7 +29,6 @@ header {
     text-align: left; /* Align content to the left */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 
 .header-content {
     display: flex;
@@ -106,7 +106,6 @@ nav ul li a.active, nav ul li a:hover {
 
 .breadcrumb {
     padding: 10px 0;
-    font-size: 1.2em;
     color: #333333;
 }
 
@@ -176,11 +175,11 @@ section {
 #news h2, #announcements h2 {
     text-transform: uppercase;
     color: #333;
+    font-size: 1.5em; /* Page title size */
 }
 
 #about {
     margin-top: 40px;
-    font-size: 1.1em;
     color: #333;
 }
 
@@ -212,7 +211,7 @@ section {
 .featured-posts h2 {
     color: #333;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.5em; /* Page title size */
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
@@ -222,8 +221,6 @@ section {
 }
 
 .post p {
-    font-size: 1em;
-    color: #333;
     margin: 0;
 }
 
@@ -257,7 +254,6 @@ hr {
     color: #d68b45;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.2em;
 }
 
 .publications-list li a:hover {
@@ -312,7 +308,6 @@ hr {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    font-size: 18px;
     text-align: left;
 }
 
@@ -321,7 +316,7 @@ hr {
 }
 
 .funding-table thead th {
-    background-color: #333;;
+    background-color: #333;
     color: #ffffff;
 }
 
@@ -334,7 +329,7 @@ hr {
 }
 
 .funding-table tbody tr:last-of-type {
-    border-bottom: 2px solid #333;;
+    border-bottom: 2px solid #333;
 }
 
 .funding-table tbody tr:hover {
@@ -355,7 +350,6 @@ hr {
     color: #d68b45;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.2em;
 }
 
 .courses-list li a:hover {
@@ -394,95 +388,12 @@ hr {
     background-color: #0056b3;
 }
 
-/* New styles for tables */
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 1em;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.table thead tr {
-    background-color: #007bff;
-    color: #ffffff;
-    text-align: left;
-}
-
-.table th,
-.table td {
-    padding: 12px 15px;
-}
-
-.table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
-
-.table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.table tbody tr:last-of-type {
-    border-bottom: 2px solid #333;
-}
-
-.table tbody tr:hover {
-    background-color: #f1f1f1;
-    cursor: pointer;
-}
-
 /* New styles for students.html */
 .student-photo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 1em;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.table thead tr {
-    background-color: #333;
-    color: #ffffff;
-    text-align: left;
-}
-
-.table th,
-.table td {
-    padding: 12px 15px;
-}
-
-.table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
-
-.table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.table tbody tr:last-of-type {
-    border-bottom: 2px solid #333;
-}
-
-.table tbody tr:hover {
-    background-color: #f1f1f1;
-    cursor: pointer;
-}
-
-/* New styles for students.html */
-.student-photo {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 10px;
 }
 
 .current-courses ul, .past-courses ul {
@@ -499,7 +410,6 @@ hr {
 }
 
 .current-courses li a, .past-courses li a {
-    font-size: 1.2em;
     color: #0073e6;
     text-decoration: none;
 }
@@ -539,7 +449,6 @@ footer {
 }
 
 .footer-content {
-    font-size: 1em;
     color: #333;
 }
 
