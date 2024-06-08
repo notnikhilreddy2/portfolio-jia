@@ -160,7 +160,7 @@ section {
 
 /* Styles for news and announcements */
 #news, #announcements {
-    margin-top: 40px;
+    margin-top: 48px;
 }
 
 .news-item, .announcement-item {
@@ -251,8 +251,8 @@ hr {
 }
 
 .publications-list li a {
-    color: #d68b45;
-    font-weight: bold;
+    /* color: #d68b45; */
+    /* font-weight: bold; */
     text-decoration: none;
 }
 
