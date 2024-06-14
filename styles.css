@@ -50,7 +50,7 @@ header {
 .header-content h1 {
     margin: 0;
     font-size: 2em; /* Big font for name */
-    color: #ffffff; /* Slightly grey */
+    color: #ffffff;
 }
 
 .header-content h2 {
@@ -63,6 +63,10 @@ header {
     margin: 5px 0;
     font-size: 1em; /* Regular font size */
     color: #ffffff; /* Slightly grey */
+}
+
+.header-content a {
+    color: #3333ff
 }
 
 /* Navigation bar styling */
